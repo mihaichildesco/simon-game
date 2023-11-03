@@ -50,3 +50,19 @@ body {
   background-color: grey;
   box-shadow: 0 0 20px white;
 }
+
+@keyframes flash {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.flash {
+  animation: flash 0.5s;
+}
